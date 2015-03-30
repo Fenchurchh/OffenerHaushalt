@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40302.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OffenerHaushaltCLI", "OffenerHaushaltCLI\OffenerHaushaltCLI.csproj", "{7DB794C5-B268-41FF-BA1D-99470F03F123}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "libs", "libs", "{89E60980-7CA5-4579-B00D-8AC1AF8D719F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illias", "libs\Illias\Illias\Illias.csproj", "{E156F18D-D41C-4529-9BCC-9962E6EE25DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Illias.NET4.5", "libs\Illias\Illias.NET4.5\Illias.NET4.5.csproj", "{23D37453-2D4E-4BD8-B40F-3E731FEE7712}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styx", "libs\Styx\Styx\Styx.csproj", "{3949790D-8591-4101-9E4D-CE7A758E7409}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Styx.NET4.5", "libs\Styx\Styx.NET4.5\Styx.NET4.5.csproj", "{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DB794C5-B268-41FF-BA1D-99470F03F123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB794C5-B268-41FF-BA1D-99470F03F123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB794C5-B268-41FF-BA1D-99470F03F123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB794C5-B268-41FF-BA1D-99470F03F123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E156F18D-D41C-4529-9BCC-9962E6EE25DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E156F18D-D41C-4529-9BCC-9962E6EE25DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E156F18D-D41C-4529-9BCC-9962E6EE25DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E156F18D-D41C-4529-9BCC-9962E6EE25DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D37453-2D4E-4BD8-B40F-3E731FEE7712}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D37453-2D4E-4BD8-B40F-3E731FEE7712}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D37453-2D4E-4BD8-B40F-3E731FEE7712}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D37453-2D4E-4BD8-B40F-3E731FEE7712}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3949790D-8591-4101-9E4D-CE7A758E7409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3949790D-8591-4101-9E4D-CE7A758E7409}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3949790D-8591-4101-9E4D-CE7A758E7409}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3949790D-8591-4101-9E4D-CE7A758E7409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E156F18D-D41C-4529-9BCC-9962E6EE25DA} = {89E60980-7CA5-4579-B00D-8AC1AF8D719F}
+		{23D37453-2D4E-4BD8-B40F-3E731FEE7712} = {89E60980-7CA5-4579-B00D-8AC1AF8D719F}
+		{3949790D-8591-4101-9E4D-CE7A758E7409} = {89E60980-7CA5-4579-B00D-8AC1AF8D719F}
+		{AF76ECC0-2CA5-4CFF-9E1E-FF5478C4B6E4} = {89E60980-7CA5-4579-B00D-8AC1AF8D719F}
+	EndGlobalSection
+EndGlobal
